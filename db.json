@@ -2,134 +2,268 @@
   "posts": [
     {
       "id": 1,
-      "username": "john_doe",
-      "profilePicture": "https://example.com/images/john_doe_profile.jpg",
-      "image": "https://example.com/images/post1.jpg",
-      "caption": "Loving my new outfit from @tailor_shop! #fashion #style",
-      "likes": 123,
+      "username": "fashionista1",
+      "profilePicture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&h=80&crop=faces&fit=crop",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
+      "caption": "Loving this new summer dress! #summer #fashion",
+      "likes": 150,
       "comments": [
         {
           "id": 1,
-          "username": "jane_smith",
-          "text": "Looks great!",
+          "username": "styleguru",
+          "text": "Looks amazing!",
           "timestamp": "2024-09-13T10:15:30Z"
-        },
-        {
-          "id": 2,
-          "username": "mike_jones",
-          "text": "Where did you get it?",
-          "timestamp": "2024-09-13T11:00:00Z"
         }
       ],
       "timestamp": "2024-09-12T14:23:00Z"
     },
     {
       "id": 2,
-      "username": "fashion_guru",
-      "profilePicture": "https://example.com/images/fashion_guru_profile.jpg",
-      "image": "https://example.com/images/post2.jpg",
-      "caption": "Exploring new fabric styles at the marketplace! #fabric #style",
-      "likes": 200,
+      "username": "trendsetter",
+      "profilePicture": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=80&h=80&crop=faces&fit=crop",
+      "image": "https://images.unsplash.com/photo-1520975917864-99b8e7d15266?w=800",
+      "caption": "Street style vibes. #streetstyle",
+      "likes": 230,
       "comments": [],
       "timestamp": "2024-09-13T09:45:00Z"
+    },
+    {
+      "id": 3,
+      "username": "styleicon",
+      "profilePicture": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=80&h=80&crop=faces&fit=crop",
+      "image": "https://images.unsplash.com/photo-1551854838-8ae8749d3538?w=800",
+      "caption": "New outfit for the weekend. #OOTD",
+      "likes": 340,
+      "comments": [
+        {
+          "id": 2,
+          "username": "fashionlover",
+          "text": "Where did you get this?",
+          "timestamp": "2024-09-13T12:00:00Z"
+        }
+      ],
+      "timestamp": "2024-09-13T11:00:00Z"
+    },
+    {
+      "id": 4,
+      "username": "designerlife",
+      "profilePicture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=80&h=80&crop=faces&fit=crop",
+      "image": "https://images.unsplash.com/photo-1520975434757-08e64c1d8f0c?w=800",
+      "caption": "Sketching new designs. Stay tuned!",
+      "likes": 95,
+      "comments": [],
+      "timestamp": "2024-09-13T13:30:00Z"
+    },
+    {
+      "id": 5,
+      "username": "vintagequeen",
+      "profilePicture": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=80&h=80&crop=faces&fit=crop",
+      "image": "https://images.unsplash.com/photo-1542060743-1ba5f0b859d0?w=800",
+      "caption": "Found this vintage gem! #vintage #fashion",
+      "likes": 180,
+      "comments": [],
+      "timestamp": "2024-09-13T15:00:00Z"
     }
   ],
   "fabrics": [
     {
       "id": 1,
-      "name": "Silk Fabric",
-      "image": "https://example.com/images/silk_fabric.jpg",
-      "price": 25.99,
-      "description": "High-quality silk fabric, perfect for elegant dresses.",
-      "category": "Silk",
-      "colors": ["Red", "Blue", "Black"],
+      "name": "Floral Cotton Fabric",
+      "image": "https://images.unsplash.com/photo-1562619401-5bfdcc5aef8f?w=800",
+      "price": 12.99,
+      "description": "Soft cotton fabric with a beautiful floral print.",
+      "category": "Cotton",
+      "colors": ["Red", "Blue", "Yellow"],
       "seller": {
-        "id": 101,
-        "name": "Fabrics World",
-        "rating": 4.5,
-        "contact": "contact@fabricsworld.com"
+        "id": 201,
+        "name": "Cotton Creations",
+        "rating": 4.7,
+        "contact": "sales@cottoncreations.com"
       }
     },
     {
       "id": 2,
-      "name": "Cotton Fabric",
-      "image": "https://example.com/images/cotton_fabric.jpg",
-      "price": 15.49,
-      "description": "Soft cotton fabric suitable for casual wear.",
-      "category": "Cotton",
-      "colors": ["White", "Yellow", "Green"],
+      "name": "Silk Satin Fabric",
+      "image": "https://images.unsplash.com/photo-1599948934683-df06b1c6475d?w=800",
+      "price": 29.99,
+      "description": "Luxurious silk satin fabric for elegant garments.",
+      "category": "Silk",
+      "colors": ["Black", "Emerald", "Burgundy"],
       "seller": {
-        "id": 102,
-        "name": "Cotton Hub",
+        "id": 202,
+        "name": "Silk Road Fabrics",
+        "rating": 4.9,
+        "contact": "contact@silkroadfabrics.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Denim Fabric",
+      "image": "https://images.unsplash.com/photo-1588168339971-9464d6dbf30b?w=800",
+      "price": 19.50,
+      "description": "Durable denim fabric suitable for jeans and jackets.",
+      "category": "Denim",
+      "colors": ["Indigo", "Light Blue"],
+      "seller": {
+        "id": 203,
+        "name": "Denim Depot",
+        "rating": 4.5,
+        "contact": "info@denimdepot.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Linen Fabric",
+      "image": "https://images.unsplash.com/photo-1582585062245-0b1b0eab6a6a?w=800",
+      "price": 17.75,
+      "description": "Breathable linen fabric perfect for summer wear.",
+      "category": "Linen",
+      "colors": ["White", "Beige", "Olive"],
+      "seller": {
+        "id": 204,
+        "name": "Linen Loft",
+        "rating": 4.6,
+        "contact": "support@linenloft.com"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Wool Tweed Fabric",
+      "image": "https://images.unsplash.com/photo-1603046891864-dfed888f40c7?w=800",
+      "price": 22.99,
+      "description": "Classic wool tweed fabric for suits and coats.",
+      "category": "Wool",
+      "colors": ["Grey", "Brown"],
+      "seller": {
+        "id": 205,
+        "name": "Wool World",
         "rating": 4.8,
-        "contact": "info@cottonhub.com"
+        "contact": "hello@woolworld.com"
       }
     }
   ],
   "tailors": [
     {
       "id": 1,
-      "name": "Tailor Shop A",
-      "image": "https://example.com/images/tailor_a.jpg",
-      "latitude": 37.7749,
-      "longitude": -122.4194,
-      "rating": 4.7,
-      "reviews": 120,
-      "description": "Expert in bespoke suits and wedding dresses.",
-      "services": ["Bespoke Suits", "Wedding Dresses", "Alterations"],
+      "name": "Elegant Stitch",
+      "image": "https://images.unsplash.com/photo-1521120098172-f81dd6ecb7a7?w=800",
+      "latitude": 40.7128,
+      "longitude": -74.0060,
+      "rating": 4.9,
+      "reviews": 200,
+      "description": "Specializing in bespoke suits and formal wear.",
+      "services": ["Bespoke Suits", "Alterations", "Custom Shirts"],
       "contact": {
-        "phone": "+123456789",
-        "email": "contact@tailorshopA.com"
+        "phone": "+1234567890",
+        "email": "contact@elegantstitch.com"
       }
     },
     {
       "id": 2,
-      "name": "Tailor Shop B",
-      "image": "https://example.com/images/tailor_b.jpg",
+      "name": "Seamless Designs",
+      "image": "https://images.unsplash.com/photo-1581579181308-9484f32c2f35?w=800",
       "latitude": 34.0522,
       "longitude": -118.2437,
-      "rating": 4.5,
-      "reviews": 89,
-      "description": "Specializes in alterations and custom-made shirts.",
-      "services": ["Alterations", "Custom Shirts", "Repairs"],
+      "rating": 4.7,
+      "reviews": 150,
+      "description": "Expert in wedding dresses and evening gowns.",
+      "services": ["Wedding Dresses", "Evening Gowns", "Alterations"],
       "contact": {
-        "phone": "+987654321",
-        "email": "service@tailorshopB.com"
+        "phone": "+1987654321",
+        "email": "info@seamlessdesigns.com"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Tailor Made",
+      "image": "https://images.unsplash.com/photo-1594633310535-8de7d5a8adcc?w=800",
+      "latitude": 51.5074,
+      "longitude": -0.1278,
+      "rating": 4.8,
+      "reviews": 175,
+      "description": "Custom tailoring with a modern touch.",
+      "services": ["Custom Tailoring", "Alterations", "Men's Wear"],
+      "contact": {
+        "phone": "+441234567890",
+        "email": "service@tailormade.com"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Stitch Perfect",
+      "image": "https://images.unsplash.com/photo-1520975434757-08e64c1d8f0c?w=800",
+      "latitude": 48.8566,
+      "longitude": 2.3522,
+      "rating": 4.6,
+      "reviews": 90,
+      "description": "Quality tailoring services for all occasions.",
+      "services": ["Alterations", "Custom Dresses", "Repairs"],
+      "contact": {
+        "phone": "+33123456789",
+        "email": "contact@stitchperfect.fr"
+      }
+    },
+    {
+      "id": 5,
+      "name": "The Sewing Room",
+      "image": "https://images.unsplash.com/photo-1594633310535-8de7d5a8adcc?w=800",
+      "latitude": 35.6895,
+      "longitude": 139.6917,
+      "rating": 4.9,
+      "reviews": 110,
+      "description": "Modern tailoring with traditional techniques.",
+      "services": ["Bespoke Suits", "Custom Dresses", "Alterations"],
+      "contact": {
+        "phone": "+81312345678",
+        "email": "hello@sewingroom.jp"
       }
     }
   ],
   "wardrobe-items": [
     {
       "id": 1,
-      "name": "Red Dress",
-      "image": "https://example.com/images/reddress.jpg",
+      "name": "Little Black Dress",
+      "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?w=800",
       "category": "Dress",
       "lastWorn": "2024-09-10T15:30:00Z",
-      "timesWorn": 5,
+      "timesWorn": 3,
       "favorite": true
     },
     {
       "id": 2,
-      "name": "Blue Jeans",
-      "image": "https://example.com/images/bluejeans.jpg",
+      "name": "Classic Blue Jeans",
+      "image": "https://images.unsplash.com/photo-1588168339971-9464d6dbf30b?w=800",
       "category": "Pants",
-      "lastWorn": "2024-09-08T12:15:00Z",
+      "lastWorn": "2024-09-12T12:15:00Z",
+      "timesWorn": 15,
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "name": "White Sneakers",
+      "image": "https://images.unsplash.com/photo-1519741497674-61148ed2b3d1?w=800",
+      "category": "Shoes",
+      "lastWorn": "2024-09-11T11:00:00Z",
       "timesWorn": 10,
+      "favorite": true
+    },
+    {
+      "id": 4,
+      "name": "Leather Jacket",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
+      "category": "Outerwear",
+      "lastWorn": "2024-09-08T16:45:00Z",
+      "timesWorn": 7,
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "name": "Striped T-Shirt",
+      "image": "https://images.unsplash.com/photo-1542060743-1ba5f0b859d0?w=800",
+      "category": "Top",
+      "lastWorn": "2024-09-13T09:00:00Z",
+      "timesWorn": 12,
       "favorite": false
     }
-  ],
-  "create-post": {
-    "status": "success",
-    "message": "Post created successfully.",
-    "post": {
-      "id": 3,
-      "username": "new_user",
-      "profilePicture": "https://example.com/images/new_user_profile.jpg",
-      "image": "https://example.com/images/new_post.jpg",
-      "caption": "Just added a new fabric to my collection!",
-      "likes": 0,
-      "comments": [],
-      "timestamp": "2024-09-13T12:00:00Z"
-    }
-  }
+  ]
 }
