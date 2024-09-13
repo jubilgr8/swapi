@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "profilePicture": "https://example.com/images/john_doe_profile.jpg",
+      "image": "https://example.com/images/post1.jpg",
+      "caption": "Loving my new outfit from @tailor_shop! #fashion #style",
+      "likes": 123,
+      "comments": [
+        {
+          "id": 1,
+          "username": "jane_smith",
+          "text": "Looks great!",
+          "timestamp": "2024-09-13T10:15:30Z"
+        },
+        {
+          "id": 2,
+          "username": "mike_jones",
+          "text": "Where did you get it?",
+          "timestamp": "2024-09-13T11:00:00Z"
+        }
+      ],
+      "timestamp": "2024-09-12T14:23:00Z"
+    },
+    {
+      "id": 2,
+      "username": "fashion_guru",
+      "profilePicture": "https://example.com/images/fashion_guru_profile.jpg",
+      "image": "https://example.com/images/post2.jpg",
+      "caption": "Exploring new fabric styles at the marketplace! #fabric #style",
+      "likes": 200,
+      "comments": [],
+      "timestamp": "2024-09-13T09:45:00Z"
+    }
+  ],
+  "fabrics": [
+    {
+      "id": 1,
+      "name": "Silk Fabric",
+      "image": "https://example.com/images/silk_fabric.jpg",
+      "price": 25.99,
+      "description": "High-quality silk fabric, perfect for elegant dresses.",
+      "category": "Silk",
+      "colors": ["Red", "Blue", "Black"],
+      "seller": {
+        "id": 101,
+        "name": "Fabrics World",
+        "rating": 4.5,
+        "contact": "contact@fabricsworld.com"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Cotton Fabric",
+      "image": "https://example.com/images/cotton_fabric.jpg",
+      "price": 15.49,
+      "description": "Soft cotton fabric suitable for casual wear.",
+      "category": "Cotton",
+      "colors": ["White", "Yellow", "Green"],
+      "seller": {
+        "id": 102,
+        "name": "Cotton Hub",
+        "rating": 4.8,
+        "contact": "info@cottonhub.com"
+      }
+    }
+  ],
+  "tailors": [
+    {
+      "id": 1,
+      "name": "Tailor Shop A",
+      "image": "https://example.com/images/tailor_a.jpg",
+      "latitude": 37.7749,
+      "longitude": -122.4194,
+      "rating": 4.7,
+      "reviews": 120,
+      "description": "Expert in bespoke suits and wedding dresses.",
+      "services": ["Bespoke Suits", "Wedding Dresses", "Alterations"],
+      "contact": {
+        "phone": "+123456789",
+        "email": "contact@tailorshopA.com"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Tailor Shop B",
+      "image": "https://example.com/images/tailor_b.jpg",
+      "latitude": 34.0522,
+      "longitude": -118.2437,
+      "rating": 4.5,
+      "reviews": 89,
+      "description": "Specializes in alterations and custom-made shirts.",
+      "services": ["Alterations", "Custom Shirts", "Repairs"],
+      "contact": {
+        "phone": "+987654321",
+        "email": "service@tailorshopB.com"
+      }
+    }
+  ],
+  "wardrobe-items": [
+    {
+      "id": 1,
+      "name": "Red Dress",
+      "image": "https://example.com/images/reddress.jpg",
+      "category": "Dress",
+      "lastWorn": "2024-09-10T15:30:00Z",
+      "timesWorn": 5,
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "name": "Blue Jeans",
+      "image": "https://example.com/images/bluejeans.jpg",
+      "category": "Pants",
+      "lastWorn": "2024-09-08T12:15:00Z",
+      "timesWorn": 10,
+      "favorite": false
+    }
+  ],
+  "create-post": {
+    "status": "success",
+    "message": "Post created successfully.",
+    "post": {
+      "id": 3,
+      "username": "new_user",
+      "profilePicture": "https://example.com/images/new_user_profile.jpg",
+      "image": "https://example.com/images/new_post.jpg",
+      "caption": "Just added a new fabric to my collection!",
+      "likes": 0,
+      "comments": [],
+      "timestamp": "2024-09-13T12:00:00Z"
+    }
+  }
+}
