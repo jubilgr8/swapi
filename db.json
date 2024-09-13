@@ -69,7 +69,7 @@
     {
       "id": 1,
       "name": "Floral Cotton Fabric",
-      "image": "https://images.unsplash.com/photo-1562619401-5bfdcc5aef8f?w=800",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
       "price": 12.99,
       "description": "Soft cotton fabric with a beautiful floral print.",
       "category": "Cotton",
@@ -84,7 +84,7 @@
     {
       "id": 2,
       "name": "Silk Satin Fabric",
-      "image": "https://images.unsplash.com/photo-1599948934683-df06b1c6475d?w=800",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
       "price": 29.99,
       "description": "Luxurious silk satin fabric for elegant garments.",
       "category": "Silk",
@@ -99,7 +99,7 @@
     {
       "id": 3,
       "name": "Denim Fabric",
-      "image": "https://images.unsplash.com/photo-1588168339971-9464d6dbf30b?w=800",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
       "price": 19.50,
       "description": "Durable denim fabric suitable for jeans and jackets.",
       "category": "Denim",
@@ -114,7 +114,7 @@
     {
       "id": 4,
       "name": "Linen Fabric",
-      "image": "https://images.unsplash.com/photo-1582585062245-0b1b0eab6a6a?w=800",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
       "price": 17.75,
       "description": "Breathable linen fabric perfect for summer wear.",
       "category": "Linen",
@@ -129,7 +129,7 @@
     {
       "id": 5,
       "name": "Wool Tweed Fabric",
-      "image": "https://images.unsplash.com/photo-1603046891864-dfed888f40c7?w=800",
+      "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800",
       "price": 22.99,
       "description": "Classic wool tweed fabric for suits and coats.",
       "category": "Wool",
