@@ -65,6 +65,128 @@
       "timestamp": "2024-09-13T15:00:00Z"
     }
   ],
+  "fabricVendors": [
+    {
+      "id": 201,
+      "name": "Cotton Creations",
+      "rating": 4.7,
+      "priceRange": "$10 - $20",
+      "contact": "sales@cottoncreations.com",
+      "fabrics": [
+        {
+          "id": 1,
+          "name": "Floral Cotton Fabric",
+          "image": "https://images.unsplash.com/photo-1562619401-5bfdcc5aef8f?w=800"
+        },
+        {
+          "id": 2,
+          "name": "Striped Cotton Fabric",
+          "image": "https://images.unsplash.com/photo-1551892589-865f69869432?w=800"
+        },
+        {
+          "id": 3,
+          "name": "Plain Cotton Fabric",
+          "image": "https://images.unsplash.com/photo-1597075491310-386e53f825b5?w=800"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "name": "Silk Road Fabrics",
+      "rating": 4.9,
+      "priceRange": "$25 - $40",
+      "contact": "contact@silkroadfabrics.com",
+      "fabrics": [
+        {
+          "id": 4,
+          "name": "Silk Satin Fabric",
+          "image": "https://images.unsplash.com/photo-1599948934683-df06b1c6475d?w=800"
+        },
+        {
+          "id": 5,
+          "name": "Printed Silk Fabric",
+          "image": "https://images.unsplash.com/photo-1578894380194-89c69d1c599e?w=800"
+        },
+        {
+          "id": 6,
+          "name": "Embroidered Silk Fabric",
+          "image": "https://images.unsplash.com/photo-1602524811994-1dfd41ecbd10?w=800"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "name": "Denim Depot",
+      "rating": 4.5,
+      "priceRange": "$18 - $25",
+      "contact": "info@denimdepot.com",
+      "fabrics": [
+        {
+          "id": 7,
+          "name": "Classic Denim",
+          "image": "https://images.unsplash.com/photo-1588168339971-9464d6dbf30b?w=800"
+        },
+        {
+          "id": 8,
+          "name": "Stretch Denim",
+          "image": "https://images.unsplash.com/photo-1576866209833-53b56abcd3a3?w=800"
+        },
+        {
+          "id": 9,
+          "name": "Denim with Patterns",
+          "image": "https://images.unsplash.com/photo-1556911220-e15b29be8cdd?w=800"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "name": "Linen Loft",
+      "rating": 4.6,
+      "priceRange": "$15 - $22",
+      "contact": "support@linenloft.com",
+      "fabrics": [
+        {
+          "id": 10,
+          "name": "Natural Linen",
+          "image": "https://images.unsplash.com/photo-1582585062245-0b1b0eab6a6a?w=800"
+        },
+        {
+          "id": 11,
+          "name": "Dyed Linen",
+          "image": "https://images.unsplash.com/photo-1594650996955-43d97e0446d1?w=800"
+        },
+        {
+          "id": 12,
+          "name": "Printed Linen",
+          "image": "https://images.unsplash.com/photo-1584720120406-852d5f382dfd?w=800"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "Wool World",
+      "rating": 4.8,
+      "priceRange": "$20 - $35",
+      "contact": "hello@woolworld.com",
+      "fabrics": [
+        {
+          "id": 13,
+          "name": "Wool Tweed",
+          "image": "https://images.unsplash.com/photo-1603046891864-dfed888f40c7?w=800"
+        },
+        {
+          "id": 14,
+          "name": "Merino Wool",
+          "image": "https://images.unsplash.com/photo-1603133872876-b7f16c7f2b05?w=800"
+        },
+        {
+          "id": 15,
+          "name": "Cashmere Wool",
+          "image": "https://images.unsplash.com/photo-1541421285165-99c80ebd50ae?w=800"
+        }
+      ]
+    }
+  ],
   "fabrics": [
     {
       "id": 1,
